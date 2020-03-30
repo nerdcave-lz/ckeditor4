@@ -311,7 +311,8 @@
 									// MathJax configuration, disable messages.
 									'MathJax.Hub.Config( {' +
 										'showMathMenu: false,' +
-										'messageStyle: "none"' +
+										'messageStyle: "none",' +
+										'TeX: { Macros: {degree: ["{º}"]} }' +
 									'} );' +
 
 									// Get main CKEDITOR form parent.
